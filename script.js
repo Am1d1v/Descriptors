@@ -7,6 +7,7 @@ const user = {
     birthInfo: "dd/mm/yyyy"
 }
 
+
 /*
 
 console.log(user);
@@ -37,3 +38,16 @@ console.log(Object.getOwnPropertyDescriptor(user, "name"));
 
 */
 
+//console.log(Object.isExtensible(user));
+
+/* Method Object.is();
+
+const user2 = {
+    name: "someName",
+    surname: "Something",
+    birthInfo: "dd/mm/yyyy"
+}
+
+console.log(Object.is(user.name, user2.name));
+
+*/
